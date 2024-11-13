@@ -1,0 +1,221 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: none;
+}
+body{
+    background-color:rgb(13, 13, 13);
+    background-size: cover;   
+    background-repeat: no-repeat;
+    padding-bottom: 70px;
+}
+i{
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+}
+.skills h1{
+    color: whitesmoke;
+    font-size: 48px;
+    justify-content: center;
+    text-align: center;
+   
+}
+.line{
+    background-image:linear-gradient(to right,#1e88d3,#aa4ad2,#a0f631);
+    height: 5px;
+    width: 190px;
+    border-radius: 10px;
+    margin-left: 660px;
+  }
+  .progress-value{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+  
+
+  }
+.container{
+    background-color: whitesmoke;
+    border-radius: 50px;
+    width: 190px;
+    
+}
+.circular-progress{
+    background:conic-gradient(blue 3.6deg, #95a1aa 0deg);
+    border-radius: 100px;
+    padding: 10px;
+    height:170px;
+    width:170px;
+   position: relative;
+   margin-left: -4px;
+   transition-duration: 4s;
+   animation: spin 2s ease-in-out forwards;
+}
+
+@keyframes spin {
+  0% {
+    background:conic-gradient(blue 3.6deg, #95a1aa 0deg);
+  }
+  100% {
+    background:conic-gradient(blue 345deg, #95a1aa 0deg);
+  }
+}
+
+/* circular progrss for CSS ------------------------------------------------------------------------------------------------ */
+
+#css{
+   animation: sp 2s ease-in-out forwards;
+}
+
+@keyframes sp {
+  0% {
+    background:conic-gradient(blue 3.6deg, #95a1aa 0deg);
+  }
+  100% {
+    background:conic-gradient(blue 335deg, #95a1aa 0deg);
+  }
+}
+
+/* circular progrss for bootstrap ------------------------------------------------------------------------------------------------ */
+
+#boot{
+    animation: sp1 2s ease-in-out forwards;
+ }
+ 
+ @keyframes sp1 {
+   0% {
+     background:conic-gradient(blue 3.6deg, #95a1aa 0deg);
+   }
+   100% {
+     background:conic-gradient(blue 328deg, #95a1aa 0deg);
+   }
+ }
+
+ /* circular progrss for javascript ------------------------------------------------------------------------------------------------ */
+
+ #js{
+    animation: sp2 2s ease-in-out forwards;
+ }
+ 
+ @keyframes sp2 {
+   0% {
+     background:conic-gradient(blue 3.6deg, #95a1aa 0deg);
+   }
+   100% {
+     background:conic-gradient(blue 325deg, #95a1aa 0deg);
+   }
+ }
+
+ /* circular progrss for reactjs ------------------------------------------------------------------------------------------------ */
+
+ #rjs{
+    animation: sp3 2s ease-in-out forwards;
+ }
+ 
+ @keyframes sp3 {
+   0% {
+     background:conic-gradient(blue 3.6deg, #95a1aa 0deg);
+   }
+   100% {
+     background:conic-gradient(blue 315deg, #95a1aa 0deg);
+   }
+ }
+
+ /* circular progrss for wordpress ------------------------------------------------------------------------------------------------ */
+
+ #wp{
+    animation: sp4 2s ease-in-out forwards;
+ }
+ 
+ @keyframes sp4 {
+   0% {
+     background:conic-gradient(blue 3.6deg, #95a1aa 0deg);
+   }
+   100% {
+     background:conic-gradient(blue 325deg, #95a1aa 0deg);
+   }
+ }
+
+ /* circular progrss for photoshop ------------------------------------------------------------------------------------------------ */
+
+ #ps{
+    animation: sp5 2s ease-in-out forwards;
+ }
+ 
+ @keyframes sp5 {
+   0% {
+     background:conic-gradient(blue 3.6deg, #95a1aa 0deg);
+   }
+   100% {
+     background:conic-gradient(blue 320deg, #95a1aa 0deg);
+   }
+ }
+
+ /* circular progrss for adobe ------------------------------------------------------------------------------------------------ */
+
+ #ab{
+    animation: sp6 2s ease-in-out forwards;
+ }
+ 
+ @keyframes sp6 {
+   0% {
+     background:conic-gradient(blue 3.6deg, #95a1aa 0deg);
+   }
+   100% {
+     background:conic-gradient(blue 332deg, #95a1aa 0deg);
+   }
+ }
+
+ /* circular progrss for figma ------------------------------------------------------------------------------------------------ */
+
+ #fg{
+    animation: sp7 2s ease-in-out forwards;
+ }
+ 
+ @keyframes sp7 {
+   0% {
+     background:conic-gradient(blue 3.6deg, #95a1aa 0deg);
+   }
+   100% {
+     background:conic-gradient(blue 335deg, #95a1aa 0deg);
+   }
+ }
+
+
+h2{
+    background-image:linear-gradient(to right,#b80d0d,#a708ec,#0b9bde);
+    -webkit-background-clip: text; 
+            color: transparent; 
+            display: inline-block;
+            padding-left: 40px;
+}
+h4{
+    color: rgb(7, 244, 244);
+    padding-left: 100px;
+}
+h5{
+    justify-content: center;
+    text-align: center;
+  padding-top: 12px;
+}
+.dev1, .dev2{
+    display: flex;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.dev{
+    display: flex;
+    flex-direction: column;
+}
+.circular{
+    border-radius: 100px;
+    padding: 10px;
+    height:170px;
+    width:170px;
+   position: relative;
+   margin-left: -4px;
+}
+  

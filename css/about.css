@@ -1,0 +1,64 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color:rgb(13, 13, 13);
+    background-size: cover;   
+    background-repeat: no-repeat;
+    position: fixed;
+}
+i{
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+}
+#about{
+    display: flex;
+   
+}
+.cert{
+    background-image:linear-gradient(to right,#1e88d3,#C570EA,#cccf15);
+    padding: 120px;
+    border-radius:8px;
+    margin: 220px;
+}
+.edu h1{
+    font-size: 45px;
+    margin-top: 100px;
+    color:aliceblue;
+}
+.line{
+    background-image:linear-gradient(to right,#1e88d3,#C570EA,#cccf15);
+    height: 3px;
+    width: 190px;
+    border-radius: 10px;
+    
+  }
+  .edu p{
+    color: aliceblue;
+    margin-right: 200px;
+    margin-left: -110px;
+  }
+  #course{
+    background-image: linear-gradient(45deg, #ff007f, #b9f926, #00b3ff); 
+            -webkit-background-clip: text; 
+            color: transparent; 
+            display: inline-block;
+  }
+  .info{
+    font-size: 20px;
+    font-style: italic;
+    color: whitesmoke;
+  }
+  .perso{
+    color: whitesmoke;
+    font-size: 20px;
+    display: flex;
+  }
+  .perso span{
+    font-style: oblique;
+    color: rgb(168, 199, 199);
+  }

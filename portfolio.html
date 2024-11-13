@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>Harika's Portfolio</title>
+    <link rel="stylesheet" href="css/portfolio.css">
+</head>
+<body>
+  <div class="like">
+        <i class="fa-solid fa-arrow-left" onclick="window.location.href='index.html'"></i>
+        <h1>Portfolio</h1>
+    <div class="line"></div>
+    <div class="filter">
+      <button class="active" data-name="all" onclick="filterSelection('all')" style="border:none; background-color: rgba(255, 255, 255, 0.055); border: 2px solid rgba(255, 255, 255, 0.13); border-radius: 20px; height: 30px; width: 110px; margin-left: 20px; margin-top: 22px; color: rgb(251, 246, 246);">All</button>
+      <button data-name="developing" onclick="filterSelection('developing')" style="border:none; background-color: rgba(255, 255, 255, 0.055); border: 2px solid rgba(255, 255, 255, 0.13); border-radius: 20px; height: 30px; width: 110px; margin-left: 10px; margin-top: 22px; color: white;">Developing</button>
+      <button data-name="designing" onclick="filterSelection('designing')" style="border:none; background-color: rgba(255, 255, 255, 0.055); border: 2px solid rgba(255, 255, 255, 0.13); border-radius: 20px; height: 30px; width: 110px; margin-left: 10px; margin-top: 22px; color: white;">Designing</button>
+      <button data-name="figma" onclick="filterSelection('figma')" style="border:none; background-color: rgba(255, 255, 255, 0.055); border: 2px solid rgba(255, 255, 255, 0.13); border-radius: 20px; height: 30px; width: 110px; margin-left: 10px; margin-top: 22px; color: white;">Figma</button>
+    </div>
+  </div>
+    <div class="work">
+        <div class="devworks">
+            <h1>Developing Works</h1>
+        <div class="filterable_Cards">
+            <div class="card" data-name="developing">
+                <div class="front">
+                    <img src="images\HTML.png">
+                </div>
+                <div class="SiteName">
+                    <h3>HTML</h3>
+                    <div class="link">
+                        <a href="https://harikapyla.github.io/HTML-Website/" target="_blank"><button style="border:none; background: linear-gradient(to right,#c670eac9,#f0526ac2); border: 1px solid white; border-radius: 20px; height: 30px; width: 110px; color: white;">Preview</button></a>
+                        <a href="https://github.com/harikapyla/HTML-Website" target="_blank"><button style="border:none;  background: linear-gradient(to right,#c670eac9,#f0526ac2); border: 1px solid white; margin-left: 10px; border-radius: 20px; height: 30px; width: 110px; color: white;">SourceCode</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card"  data-name="developing">
+                <div class="front">
+                    <img src="images\javascript.png" alt="">
+                </div>
+                <div class="SiteName">
+                    <h3>JavaScript</h3>
+                    <div class="link">
+                        <a href="https://harikapyla.github.io/JS-Works/" target="_blank"><button style="border:none; background: linear-gradient(to right,#c670eac9,#f0526ac2); border: 1px solid white; border-radius: 20px; height: 30px; width: 110px; color: white;">Preview</button></a>
+                        <a href="https://github.com/harikapyla/JS-Works" target="_blank"><button style="border:none;  background: linear-gradient(to right,#c670eac9,#f0526ac2); border: 1px solid white; margin-left: 10px; border-radius: 20px; height: 30px; width: 110px; color: white;">SourceCode</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" data-name="developing">
+                <div class="front">
+                    <img src="images\react.jpeg"/>
+                </div>
+                <div class="SiteName">
+                    <h3>REACT JS</h3>
+                    <div class="link">
+                        <a href="https://padmaboddu.github.io/JS/" target="_blank"><button style="border:none; background: linear-gradient(to right,#c670eac9,#f0526ac2); border: 1px solid white; border-radius: 20px; height: 30px; width: 110px; color: white;">Preview</button></a>
+                        <a href="https://github.com/padmaboddu/JS.git" target="_blank"><button style="border:none;  background: linear-gradient(to right,#c670eac9,#f0526ac2); border: 1px solid white; margin-left: 10px; border-radius: 20px; height: 30px; width: 110px; color: white;">SourceCode</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" data-name="developing">
+                <div class="front">
+                    <img src="images/wp static.png"/>
+                </div>
+                <div class="SiteName">
+                    <h3>WORDPRESS <br> (Static)</h3>
+                    <a href="https://dev-harikapyla.pantheonsite.io/" target="_blank">
+                        <button style="border:none; margin-top: 20px; background: linear-gradient(to right,#c670eac9,#f0526ac2); border: 1px solid white; border-radius: 20px; height: 30px; width: 110px; color: white;">Live Demo</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card" data-name="developing">
+                <div class="front">
+                    <img src="images/wp dynamic.png"/>
+                </div>
+                <div class="SiteName">
+                    <h3>WORDPRESS <br> (Dynamic)</h3>
+                    <a href="https://dev-pyla-harika.pantheonsite.io/" target="_blank">
+                        <button style="border:none; margin-top: 20px; background: linear-gradient(to right,#c670eac9,#f0526ac2); border: 1px solid white; border-radius: 20px; height: 30px; width: 110px; color: white;">Live Demo</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+
+    <nav class="dsworks">
+        <h1>Designing Works</h1>
+        <div class="filterable_Cards">
+            <div>
+                <a href="images/flyer1.png" target="_blank">
+                    <div class="card" data-name="designing">
+                        <div class="front">
+                          <img src="images/flyer1.png"/>
+                        </div>
+                        <div class="SiteName">
+                          <h3>Flyer</h3>
+                          <button style="border:none; margin-top: 20px; background: linear-gradient(to right,#c670eac9,#f0526ac2); border: 1px solid white; border-radius: 20px; height: 30px; width: 110px; color: white;">Preview</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="images/flyer2.png" target="_blank">
+                    <div class="card" data-name="designing">
+                        <div class="front">
+                          <img src="images/flyer2.png"/>
+                        </div>
+                        <div class="SiteName">
+                          <h3>Flyer</h3>
+                          <button style="border:none; margin-top: 20px; background: linear-gradient(to right,#c670eac9,#f0526ac2); border: 1px solid white; border-radius: 20px; height: 30px; width: 110px; color: white;">Preview</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="images/flyer3.png" target="_blank">
+                    <div class="card" data-name="designing">
+                        <div class="front">
+                            <img src="images/flyer3.png"/>
+                        </div>
+                        <div class="SiteName">
+                            <h3>Flyer</h3>
+                            <button style="border:none; margin-top: 20px; background: linear-gradient(to right,#c670eac9,#f0526ac2); border: 1px solid white; border-radius: 20px; height: 30px; width: 110px; color: white;">Preview</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="images/flyer4.png" target="_blank">
+                    <div class="card" data-name="designing">
+                        <div class="front">
+                            <img src="images/flyer4.png"/>
+                        </div>
+                        <div class="SiteName">
+                            <h3>Flyer</h3>
+                            <button style="border:none; margin-top: 20px; background: linear-gradient(to right,#c670eac9,#f0526ac2); border: 1px solid white; border-radius: 20px; height: 30px; width: 110px; color: white;">Preview</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="filterable_Cards">
+            <div>
+                <a href="images/poster1.png" target="_blank">
+                    <div class="card" data-name="designing">
+                        <div class="front">
+                          <img src="images/poster1.png"/>
+                        </div>
+                        <div class="SiteName">
+                          <h3>Poster</h3>
+                          <button style="border:none; margin-top: 20px; background: linear-gradient(to right,#c670eac9,#f0526ac2); border: 1px solid white; border-radius: 20px; height: 30px; width: 110px; color: white;">Preview</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="images/poster2.png" target="_blank">
+                    <div class="card" data-name="designing">
+                        <div class="front">
+                          <img src="images/poster2.png"/>
+                        </div>
+                        <div class="SiteName">
+                          <h3>Poster</h3>
+                          <button style="border:none; margin-top: 20px; background: linear-gradient(to right,#c670eac9,#f0526ac2); border: 1px solid white; border-radius: 20px; height: 30px; width: 110px; color: white;">Preview</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="images/poster3.png" target="_blank">
+                    <div class="card" data-name="designing">
+                        <div class="front">
+                            <img src="images/poster3.png"/>
+                        </div>
+                        <div class="SiteName">
+                            <h3>Poster</h3>
+                            <button style="border:none; margin-top: 20px; background: linear-gradient(to right,#c670eac9,#f0526ac2); border: 1px solid white; border-radius: 20px; height: 30px; width: 110px; color: white;">Preview</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="images/poster4.png" target="_blank">
+                    <div class="card" data-name="designing">
+                        <div class="front">
+                            <img src="images/poster4.png"/>
+                        </div>
+                        <div class="SiteName">
+                            <h3>Poster</h3>
+                            <button style="border:none; margin-top: 20px; background: linear-gradient(to right,#c670eac9,#f0526ac2); border: 1px solid white; border-radius: 20px; height: 30px; width: 110px; color: white;">Preview</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="filterable_Cards">
+            <div>
+                <a href="images/mockup1.png" target="_blank">
+                    <div class="card" data-name="designing">
+                        <div class="front">
+                          <img src="images/mockup1.png"/>
+                        </div>
+                        <div class="SiteName">
+                          <h3>MockUp</h3>
+                          <button style="border:none; margin-top: 20px; background: linear-gradient(to right,#c670eac9,#f0526ac2); border: 1px solid white; border-radius: 20px; height: 30px; width: 110px; color: white;">Preview</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="images/mockup2.png" target="_blank">
+                    <div class="card" data-name="designing">
+                        <div class="front">
+                          <img src="images/mockup2.png"/>
+                        </div>
+                        <div class="SiteName">
+                          <h3>MockUp</h3>
+                          <button style="border:none; margin-top: 20px; background: linear-gradient(to right,#c670eac9,#f0526ac2); border: 1px solid white; border-radius: 20px; height: 30px; width: 110px; color: white;">Preview</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="" target="_blank">
+                    <div class="card" data-name="designing">
+                        <div class="front">
+                            <img src=""/>
+                        </div>
+                        <div class="SiteName">
+                            <h3>Weblayout</h3>
+                            <button style="border:none; margin-top: 20px; background: linear-gradient(to right,#c670eac9,#f0526ac2); border: 1px solid white; border-radius: 20px; height: 30px; width: 110px; color: white;">Preview</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="images/mobile1.png" target="_blank">
+                    <div class="card" data-name="figma">
+                        <div class="front">
+                            <img src="images/mobile1.png"/>
+                        </div>
+                        <div class="SiteName">
+                            <h3>Mobile App <br> (Screen 1)</h3>
+                            <button style="border:none; margin-top: 20px; background: linear-gradient(to right,#c670eac9,#f0526ac2); border: 1px solid white; border-radius: 20px; height: 30px; width: 110px; color: white;">Preview</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="filterable_Cards">
+            <div>
+                <a href="images/mobile2.png" target="_blank">
+                    <div class="card" data-name="figma">
+                        <div class="front">
+                            <img src="images/mobile2.png"/>
+                        </div>
+                        <div class="SiteName">
+                            <h3>Mobile App <br> (Screen 2)</h3>
+                            <button style="border:none; margin-top: 20px; background: linear-gradient(to right,#c670eac9,#f0526ac2); border: 1px solid white; border-radius: 20px; height: 30px; width: 110px; color: white;">Preview</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="images/mobile3.png" target="_blank">
+                    <div class="card" data-name="figma">
+                        <div class="front">
+                            <img src="images/mobile3.png"/>
+                        </div>
+                        <div class="SiteName">
+                            <h3>Mobile App <br> (Screen 3)</h3>
+                            <button style="border:none; margin-top: 20px; background: linear-gradient(to right,#c670eac9,#f0526ac2); border: 1px solid white; border-radius: 20px; height: 30px; width: 110px; color: white;">Preview</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="images/web1.png" target="_blank">
+                    <div class="card" data-name="figma">
+                        <div class="front">
+                            <img src="images/web1.png"/>
+                        </div>
+                        <div class="SiteName">
+                            <h3>Web Application <br> (Screen 1)</h3>
+                            <button style="border:none; margin-top: 20px; background: linear-gradient(to right,#c670eac9,#f0526ac2); border: 1px solid white; border-radius: 20px; height: 30px; width: 110px; color: white;">Preview</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="images/web2.png" target="_blank">
+                    <div class="card" data-name="figma">
+                        <div class="front">
+                            <img src="images/web2.png"/>
+                        </div>
+                        <div class="SiteName">
+                            <h3>Web Application <br> (Screen 2)</h3>
+                            <button style="border:none; margin-top: 20px; background: linear-gradient(to right,#c670eac9,#f0526ac2); border: 1px solid white; border-radius: 20px; height: 30px; width: 110px; color: white;">Preview</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    </div>
+  
+   
+    
+  
+</body>
+
+<script>
+    function filterSelection(category) {
+      const cards = document.getElementsByClassName('card');
+      if (category === 'all') {
+        // Show all cards
+        for (let card of cards) {
+          card.style.display = 'block';
+        }
+      } else {
+        // Hide cards not matching the category and show matching ones
+        for (let card of cards) {
+          const dataName = card.getAttribute('data-name');
+          if (dataName === category) {
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        }
+      }
+  
+      // Toggle active class for buttons
+      const buttons = document.getElementsByClassName('filter')[0].getElementsByTagName('button');
+      for (let button of buttons) {
+        if (button.getAttribute('data-name') === category) {
+          button.classList.add('active');
+        } else {
+          button.classList.remove('active');
+        }
+      }
+    }
+  
+  function filterSelection(category) {
+      var cards = document.getElementsByClassName("card");
+    
+      if (category == "all") {
+        // Show all cards
+        for (var i = 0; i < cards.length; i++) {
+          cards[i].style.display = "block";
+        }
+      } else {
+        // Hide cards not in the selected category and show those that are
+        for (var i = 0; i < cards.length; i++) {
+          var dataName = cards[i].getAttribute("data-name");
+          if (dataName == category) {
+            cards[i].style.display = "block";
+          } else {
+            cards[i].style.display = "none";
+          }
+        }
+      }
+    }
+    
+  
+  document.addEventListener("DOMContentLoaded", function() {
+      const filterButtons = document.querySelectorAll(".filter button");
+      const filterableCards = document.querySelectorAll(".filterable_Cards .card");
+  
+      const filterCards = (category) => {
+          filterableCards.forEach(card => {
+              const cardCategory = card.dataset.name;
+              const parentCol = card.closest('.col-3');
+              
+              if (category === 'all' || category === cardCategory) {
+                  parentCol.classList.remove("hide");
+              } else {
+                  parentCol.classList.add("hide");
+              }
+          });
+      };
+  
+      filterButtons.forEach(button => {
+          button.addEventListener("click", function() {
+              const category = this.dataset.name;
+              filterCards(category);
+              document.querySelector(".active").classList.remove("active");
+              this.classList.add("active");
+          });
+      });
+  });
+</script>
+</html>

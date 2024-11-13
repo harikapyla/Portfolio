@@ -1,0 +1,508 @@
+body{
+    background-image: url("C:\Users\divya\Desktop\other port\images\Frame 1 (5).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+   }
+@media only screen and (max-width: 1024px){
+    .body{
+      background-image: url("C:\Users\divya\Desktop\other port\images\Frame 1 (5).jpg");
+      width: 1024px;
+    }
+}
+ i{
+    font-size: 35px;
+    margin-left: -160px;
+    margin-top: -300px;
+    padding-top: -50px;
+ }
+ 
+ .like h1{
+  margin-left: -50px;
+  font-size: 35px;
+  margin-top: -40px;
+}
+.like .line{
+  background-image:linear-gradient(to right,#F05269,#C570EA,#3BAFEA);
+  height: 3px;
+  width: 150px;
+  border-radius: 10px;
+  margin-left: -40px;
+}
+.filter{
+    height: 80px;
+    width: 530px;
+    background-color: rgba(255, 255, 255, 0.055);
+    border: 2px solid rgba(255, 255, 255, 0.13);
+    border-radius: 50px;
+    margin-top: -70px;
+  }
+  .work .filterable_Cards .front { 
+    position: relative;
+    border-radius: 2rem;   
+    width: 250px;
+    height: 294px;
+  }
+  .work .card {
+    background-color: rgba(255, 255, 255, 0.116);
+    border: 2px solid rgba(255, 255, 255, 0.404);
+    position: relative;
+    border-radius: 2rem;
+    width: 250px;
+    height: 294px;
+  }
+  .work .filterable_Cards .card img{
+    width: 96%;
+    height: 97%;
+    border-radius: 2rem;
+  }
+  .text .my{
+    margin-left: -80px;
+  }
+  .data .contact{
+    height: 350px;
+    width: 650px;
+    background-color: rgba(253, 249, 249, 0.014);
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    border-radius: 15px;
+    margin-left: 170px;
+    margin-top: 30px;
+  }
+  .self2 .data{
+  margin-left: -180px;
+  }
+  .self2 .location{
+  margin-left: 200px;
+  position:relative;
+  }
+  header{
+    background-color:rgba(0, 0, 0, 0.788);
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid rgb(90, 87, 87);
+    position: fixed;
+    z-index: 1;
+   }
+   .Logo{
+    margin-left: 20px;
+    margin-top: -10px;
+   }
+   @keyframes zoomIn{
+    0%{
+      opacity: 0;
+      transform: scale(0);
+    }
+    100%{
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  @keyframes zoomIn{
+  0%{
+    opacity: 0;
+    transform: scale(0);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1);
+  }
+  }
+  .btn1 {
+  font-size: 10px; 
+  border: none;
+  padding: 2px 2.5px; 
+  position: relative;
+  transition: 0.5s ease;
+  cursor: pointer;
+  }
+  
+  .btn1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  border-radius: 10px;
+  background-image:linear-gradient(to right,#F05269,#C570EA,#3BAFEA);
+  transition: 0.5s ease;
+  }
+  .btn1:hover::before {
+  width: 60%;
+  }
+  
+  .btn1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 0;
+  width: 100%;
+  background-image:linear-gradient(to right,#F05269,#C570EA,#3BAFEA);
+  transition: 0.4s ease;
+  z-index: -1;
+  }
+  .container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  }
+  .text{
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .one{
+    background: linear-gradient(to right,#3BAFEA,#c92b2b);
+    background-clip: text;
+    color: transparent;
+    font-size: 20px;
+  }
+  
+  .btn3{
+    height: 40px;
+    width: 160px;
+    border-radius: 40px;
+    background-image:linear-gradient(to right,#F05269,#C570EA);
+    color: white;
+    border:none;
+   margin-top: 40px;
+  }
+  .btn3:hover{
+    background-image:linear-gradient(to right,#C570EA,#3BAFEA);
+    transition: 0.4s ease;
+  }
+  .box{
+    height: 400px;
+    width: 500px;
+    background-color: rgba(253, 249, 249, 0.014);
+    border: 1px solid rgba(255, 255, 255, 0.13);
+  }
+  .ghj{
+    margin-left: -60px;
+  }
+  .demo{
+    color: rgb(150, 146, 146);
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  .like{
+    margin-left: 180px;
+    margin-top: 80px;
+  }
+  
+  .three{
+    color: rgb(150, 146, 146);
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  
+  @keyframes slideRight {
+    0%{
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    30%{
+      opacity: 1;
+      transform: translateX(-30);
+    }
+    100%{
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  .skill{
+    display: inline-flex;
+  }
+  .gif img{
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  .pic img{
+    margin-top: 50px;
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+  }
+   .circle{
+    background-image:linear-gradient(to right,#F05269,#C570EA,#3BAFEA);
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    margin-top: 250px;
+    padding: 3px;
+   }
+   .circle{
+    animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
+    animation-delay: .5s, 3.1s; 
+    opacity: 0;
+    }   
+  @keyframes zoomIn{
+    0%{
+      opacity: 0;
+      transform: scale(0);
+    }
+    100%{
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes floatImage{
+    0%{
+      transform: translateY(0);
+    }
+    50%{
+      transform: translateY(-35px);
+    }
+    100%{
+      transform: translateY(0);
+    }
+  }
+   .introduction {
+     color: white;
+     
+   }
+   .linear-text-gradient {
+    background-image:linear-gradient(to right,#F05269,#3BAFEA); 
+    background-clip: text;
+    color: transparent;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .multiple-text{
+    background-image:linear-gradient(to right,#F05269,#3BAFEA);   
+    background-clip: text;
+    color: transparent;
+    width: 100%; 
+  }
+  .btn2{
+    height: 40px;
+    width: 160px;
+    border-radius: 40px;
+    background-image:linear-gradient(to right,#F05269,#C570EA);
+    color: white;
+    border:none;
+   
+  }
+  .btn2:hover{
+    background-image:linear-gradient(to right,#C570EA,#3BAFEA);
+    transition: 0.4s ease;
+  }
+  .demo{
+    color: rgb(150, 146, 146);
+    font-size: 15px;
+  }
+  .line{
+    background-image:linear-gradient(to right,#F05269,#C570EA,#3BAFEA);
+    height: 3px;
+    width: 110px;
+    border-radius: 10px;
+  }
+  .certificate{
+    height: 400px;
+    width: 500px;
+    background-image:linear-gradient(to right,#F05269,#C570EA,#3BAFEA);
+  }
+  .my{
+    display: flex;
+  }
+  
+  .contact{
+    height: 350px;
+    width: 650px;
+    background-color: rgba(253, 249, 249, 0.014);
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    border-radius: 15px;
+    margin-left: 170px;
+    margin-top: 30px;
+  }
+  .sub{
+    display: inline-flex;
+  }
+  .box1{
+    height: 40px;
+    width: 280px;
+    background-color: rgba(255, 255, 255, 0.055);
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    margin-left: 30px;
+    border-radius: 5px;
+    color: white;
+  }
+  .box2{
+    height: 40px;
+    width: 590px;
+    background-color: rgba(255, 255, 255, 0.055);
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+  }
+  .box3{
+    height: 80px;
+    width: 590px;
+    background-color: rgba(255, 255, 255, 0.055);
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+  }
+  .box5{
+    height: 90px;
+    width: 320px;
+    background-color: rgba(253, 249, 249, 0.014);
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    margin-left: -50px;
+    border-radius: 10px;
+  }
+  .icon1{
+  height: 60px;
+  width: 60px;
+  background-color: rgba(255, 255, 255, 0.055);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 15px;
+  }
+  .work{
+  margin-top: 50px;
+  margin-right: 40px;
+  }
+  .card {
+  background-color: rgba(255, 255, 255, 0.116);
+  border: 2px solid rgba(255, 255, 255, 0.404);
+  position: relative;
+  border-radius: 2rem;
+  margin-left: 40px;
+  width: 250px;
+  height: 294px;
+  margin-bottom: 30px;
+  }
+  .card img{
+  width: 97%;
+  height: 97%;
+  border-radius: 2rem;
+  }
+  .front {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  position: absolute;
+  box-shadow: 0 0 10px 2px rgba(50, 50, 50, 2.5);
+  backface-visibility: hidden;
+  color: rgb(184, 179, 179);
+  }
+  
+  .front {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  }
+  
+  
+  .front-heading {
+  font-size: 28px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  }
+  .card .SiteName{
+  border-radius: 2rem;
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:linear-gradient(#c670ea88,#f0526a94);
+  border: 2px solid rgba(212, 12, 122, 0.678);
+  color: white;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction:column;
+  text-align:center;  
+  transform:scaleY(0);
+  transition:all 0.4s ease-in-out; 
+  }
+  .card:hover .SiteName{
+  transform:scaleX(1);
+  }
+  .filter{
+  height: 80px;
+  width: 530px;
+  background-color: rgb(73, 71, 71);
+  border: 2px solid rgba(10, 9, 9, 0.13);
+  border-radius: 50px;
+  margin-left: 230px;
+  }
+  .link{
+  display: inline-flex;
+  margin-top: 20px;
+  }
+  
+  .active{
+  background-image:linear-gradient(to right,#3BAFEA,#C570EA,#F05269);
+  
+  }
+  .hide {
+  display: none;
+  }
+  .education{
+  margin-left: 180px;
+  margin-top: 50px;
+  }
+  .filterable_Cards{
+    display: flex;
+    justify-content: center;
+  }
+  .self{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  }
+  .self2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-right: 70px;
+  }
+  .fa-brands fa-linkedin-in{
+    height:40px;
+    width: 40px;
+  }
+  .dsworks{
+    background-color: rgb(234, 234, 232);
+    padding: 30px;
+    margin: 0px 100px;
+    border-radius: 20px;
+  }
+  .dsworks h1{
+    font-size:30px;
+    color: deepskyblue;
+    padding-bottom:20px ;
+    padding-left: 20px;
+  }
+  .devworks{
+    background-color: rgb(234, 234, 232);
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 30px 0px;
+    margin-left: 5px;
+    padding-right: 6px;
+  }
+  .devworks h1{
+    font-size:30px;
+    color: deepskyblue;
+    padding-bottom:20px ;
+    padding-left: 30px;
+  }
+  .port{
+    display: flex;
+  }
